@@ -12,4 +12,3 @@ class user():
 me = user('golbanoo')
 print(me.userName)
 print(me._password)
-print('done!')
