@@ -4,7 +4,7 @@ class user():
     def __init__(self, userName):
         self.userName = "userName"
         self._password ="123"  # it is private, if you hit dot after me, it won't show up
-
+        self.__message = 'Love you'
         pass
     #making private function
     def password(self, gotPassWord):
@@ -17,3 +17,4 @@ class user():
 me = user('golbanoo')
 print(me.userName)
 me.password(input('what is your password? '))
+#print(me.__message)
