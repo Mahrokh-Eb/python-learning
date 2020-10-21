@@ -5,6 +5,7 @@ class user:
         self.userName = userName
         self._email = 'test@test.com'
         self._passWord = 'pass'
+        self.__message = 'love you'
 
     def login(self, gotPassword):
         if self._passWord == gotPassword:
