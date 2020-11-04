@@ -20,3 +20,4 @@ me.name
 me.family
 me.age
 print(type(me))
+print('done!')
